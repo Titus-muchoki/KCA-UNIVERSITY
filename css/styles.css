@@ -1,0 +1,31 @@
+body{
+    background-color: gray;
+}
+h2{
+    color: #00ffff;
+}
+h3{
+    color: chartreuse;
+}
+img{
+    float: right;
+}
+button{
+    color: #0000ff;
+}
+.ul{
+    float: right;
+}
+.ol{
+    float: left;
+    
+}
+.one{
+    float: center;
+    text-align: center;
+    padding-bottom: 80px;
+}
+.all{
+    float: center;
+
+}
