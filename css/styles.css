@@ -1,5 +1,7 @@
 body{
-    background-color: gray;
+    background-image: url("../images/kuc.jpg");
+    background-size: cover;
+    height: 100vh;
 }
 h2{
     color: #00ffff;
@@ -7,17 +9,17 @@ h2{
 h3{
     color: chartreuse;
 }
-img{
-    float: right;
-}
 button{
     color: #0000ff;
 }
 .ul{
     float: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    list-style-type: circle;
 }
 .ol{
     float: left;
+    list-style: decimal;
     
 }
 .one{
@@ -28,4 +30,31 @@ button{
 .all{
     float: center;
 
+}
+#p{
+    color: #00ffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#img{
+    float: right;
+    margin-top: 70px;
+}
+#img2{
+    float: right;
+    padding: right;
+    
+}
+table{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid;
+    background-color: aqua;
+    padding-bottom: 70px;
+    margin-bottom: 70px;
+    margin-top: 90px;
+    width: 124px;
+}
+tr, td, th {
+    border: solid;
+    width: 124px;
 }
